@@ -1,0 +1,44 @@
+{
+  "datasets": [
+    {
+      "key": "suzhou",
+      "file": "suzhou_hourly_load.parquet",
+      "rows": 26280,
+      "columns": 9,
+      "start": "2021-01-01 00:00:00",
+      "end": "2023-12-31 23:00:00",
+      "target": "load_kw",
+      "sha256": "80d53bcc8d5e48889658531e88fa5b96002a8ba056257da436623b6f2c9d9377"
+    },
+    {
+      "key": "zhenjiang",
+      "file": "zhenjiang_hourly_load.parquet",
+      "rows": 17520,
+      "columns": 9,
+      "start": "2022-01-01 00:00:00",
+      "end": "2023-12-31 23:00:00",
+      "target": "load_kw",
+      "sha256": "512ecd47a26f56b7b9de3ac7a28ffee21be243a4ec58cc776d807fafff21833a"
+    },
+    {
+      "key": "shenzhen",
+      "file": "shenzhen_hourly_occupancy.parquet",
+      "rows": 720,
+      "columns": 8,
+      "start": "2022-06-19 00:00:00",
+      "end": "2022-07-18 23:00:00",
+      "target": "occupied_piles",
+      "sha256": "63df5b13b3138b8e99e4498eff87db82377d7eb85ec05c46f4d8390b54bfc3d7"
+    },
+    {
+      "key": "los_angeles",
+      "file": "los_angeles_hourly_charging.parquet",
+      "rows": 4392,
+      "columns": 21,
+      "start": "2023-04-01 00:00:00",
+      "end": "2023-09-30 23:00:00",
+      "target": "target_kw",
+      "sha256": "477489a0161a594529919bb5454d468c4b9985bd175dd5f7c85d14c140d196d4"
+    }
+  ]
+}
